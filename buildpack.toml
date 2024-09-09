@@ -2,7 +2,7 @@ api = "0.4"
 
 [buildpack]
 id = "digitalocean/apt"
-version = "0.0.1"
+version = "0.0.2"
 name = "apt Packages Buildpack"
 homepage = "https://github.com/digitalocean/buildpack-apt"
 description = "Installs apt packages for further builds and runtime"
@@ -12,16 +12,10 @@ keywords = ["apt", "packages", "ubuntu"]
 type = "MIT"
 
 [[stacks]]
-id = "heroku-18"
-
-[[stacks]]
 id = "heroku-20"
 
 [[stacks]]
 id = "heroku-22"
-
-[[stacks]]
-id = "io.buildpacks.stacks.bionic"
 
 [[stacks]]
 id = "io.buildpacks.stacks.jammy"
